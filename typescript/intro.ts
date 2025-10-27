@@ -64,7 +64,7 @@ function consoleError(errMsg:string):void{
  * @param param0 
  * @returns 
  */
-function returnObject({name:string, isAdmin:boolean}):{name:string, isAdmin:boolean}{
+function returnObject({name, isAdmin}:{name:string, isAdmin:boolean}):{name:string, isAdmin:boolean}{
 
     return {name:"bhuvan", isAdmin:true}
 }
