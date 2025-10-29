@@ -3,20 +3,20 @@ Seperation of Concern: dividing system into distinct sections to maintain single
 
 ## __SoC Layers__
     
-src/
-|
-|--features/
+    src/
     |
-    |--feature-01/
-    |   |
-    |   |--ui/        :presentation components, css.
-    |   |--domain/    :business logic, hooks, data transformers, state machines.
-    |   |--infra/     :api calls, data mappers, network utilities, services.
-    |   |--index.tsx  :fascade entry point.
-    |
-    |--feature-n/
+    |--features/
+        |
+        |--feature-01/
+        |   |
+        |   |--ui/        :presentation components, css.
+        |   |--domain/    :business logic, hooks, data transformers, state machines.
+        |   |--infra/     :api calls, data mappers, network utilities, services.
+        |   |--index.tsx  :fascade entry point.
+        |
+        |--feature-n/
 
-*these layer can be further divided for seperation*
+    *these layer can be further divided for seperation*
     
 ### Interfaction flow: UI-> domain-> infra 
 *data flows opposition direction*.
